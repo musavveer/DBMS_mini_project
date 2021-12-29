@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../static/css/all.css">
+    <h2 ALIGN=CENTER>STUDENT SIGN UP</h2>
+</head>
+
+<body>
+
+
+    <div align=center>
+
+        <form action="/student signup" method="POST" align=relative>
+
+
+            <div class="container">
+                <label for="Fname"><b>Name</b></label>
+                <input type="text" placeholder="Enter your name" name="name" required>
+
+                <label for="usn"><b><br><br>USN</b></label>
+                <input type="text" placeholder="Enter your USN" name="usn" required>
+
+                <!--
+                <div>
+                    <label for="course"><b><br>Course</b></label>
+
+                    <select class="course" >
+                        <option label="CSE"></option>
+                        <option label="ECE"></option>
+                        <option label="ME"></option>
+                        <option label="CIV"></option>
+                     </select>
+                </div>
+
+                <div>
+                    <label for="db"><b><br>Sem</b></label>
+                    <select class="sem">
+                        <option label="1"></option>
+                        <option label="2"></option>
+                        <option label="3"></option>
+                        <option label="4"></option>      
+                        <option label="5"></option>      
+                        <option label="6"></option>      
+                        <option label="7"></option>      
+                        <option label="8"></option>      
+                    </select> 
+                </div>
+
+                <div>
+                    <label for="db"><b><br> D.O.B</b></label>
+                    <input type="date" name="db" required>
+                </div>
+
+                <label for="psw"><b><br><br>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="psw" required>
+
+
+                <label for="psw"><b><br><br>Confirm Password</b></label>
+                <input type="password" placeholder="Re-Enter Password" name="psw2" required>
+                -->
+                
+                <label for="email"><b><br>Email Address</b></label>
+                <input type="email" placeholder="Enter your email" name="email" required>
+
+                
+
+                <button class="createaccount" type="submit">CREATE ACCOUNT</button>
+
+
+            </div>
+
+            <div align=left class="container" bgcolor=red>
+                <button type=" button " class="cancelbtn ">Cancel</button>
+                <span class="login"> <a href="student login.html">have account?</a></span>
+            </div>
+        </form>
+    </div>
+
+
+</body>
+
+</html>
